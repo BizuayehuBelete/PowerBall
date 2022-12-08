@@ -3,8 +3,8 @@ import color
 
 class If_Condition(Condition):
     def test(self,Conditon):
-        print(f'Today’s Powerball Winning Numbers :' + color.MAGENTA + f"{self.user_numbers}", color.YELLOW + f'{self.user_powerball}')
-        print(color.RESET+f'Your Lucky Numbers:' + color.MAGENTA + f"{self.Luckyball_numbers}",
+        print(f'\n\33[1mToday’s Powerball Winning Numbers : \33[0m' + color.MAGENTA + f"{self.user_numbers}", color.YELLOW + f'{self.user_powerball}')
+        print(color.RESET+f'\33[1mYour Lucky Numbers:\33[1m' + color.MAGENTA + f"{self.Luckyball_numbers}",
               color.YELLOW + f' {self.Luckyballs}')
         if self.correct == 5:
             if self.user_powerball == self.Luckyballs:

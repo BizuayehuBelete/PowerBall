@@ -3,6 +3,8 @@ from random import randint
 
 
 class List():
+    print("\t\33[31m\33[4m\33[1m.....PowerBall Lottery System:.....\33[0m\33[4m\33[1m ")
+
     def __init__(self):
         self.user_numbers = []
         self.user_powerball = []
