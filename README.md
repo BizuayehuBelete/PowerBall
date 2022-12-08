@@ -19,14 +19,14 @@ Description:
     •	Your instructor can help with the explanation of this assignment but won’t help with debugging your code. 
 Instructions in detail: 
 
-    Part I: Assignment file structure (15 points) 
-    •	Create a folder called powerball (1 point) 
+    Part I: Assignment file structure 
+    •	Create a folder called powerball 
     •	Inside the powerball folder, you need to create a subfolder according what we have learned so far. 
-    •	 The project must be implemented in OOP (12 point)
+    •	 The project must be implemented in OOP 
     •	Use comment in the relevant areas – Mandatory requirement.
     
       
-Part II:  The READ ME header information: (6 points) 
+Part II:  The READ ME header information:  
 
     •	The READ ME file must have a document type so that a user’s browser knows what version is used.  
     •	The READ ME file  must include all data , and metadata: 
