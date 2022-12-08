@@ -2,7 +2,7 @@ from random import randint
 # Name: Bizuayehu Belete
 
 
-class List():
+class Winning_Number():
     print("\t\33[31m\33[4m\33[1m.....PowerBall Lottery System:.....\33[0m\33[4m\33[1m ")
 
     def __init__(self):
@@ -15,11 +15,6 @@ class List():
         for i in range(1):
             powerball =randint(1,10)
             self.user_powerball.append(powerball)
-              # Check if this number has already been picked and ...
-            while powerball in self.user_numbers :
-             # ... if it has, pick a new number instead
-             powerball = randint(1, 20)
-
         # Initialise an empty list that will be used to store the 5 lucky numbers!
         for i in range(0, 5):
             number = randint(1, 20)
@@ -34,7 +29,7 @@ class List():
 
 
 
-class Setup(List):
+class Lucky_Number(Winning_Number):
     def __init__(self):
         super().__init__()
         self.Luckyball_numbers = []
@@ -49,7 +44,7 @@ class Setup(List):
         self.Luckyball_numbers.sort()
 
 
-class Condition(Setup):
+class Condition(Lucky_Number):
   def Condition(self):
     self.correct = 0
     for i in self.user_numbers:
