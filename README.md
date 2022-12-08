@@ -1,6 +1,7 @@
 # PowerBall
+AuthorName:
 
-        AuthorName: Bizuayehu Belete
+         Bizuayehu Belete
 Title:
 
     Powerball Lottery Project
