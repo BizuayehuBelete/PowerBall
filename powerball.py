@@ -1,4 +1,5 @@
 from random import randint
+
 # Name: Bizuayehu Belete
 
 
@@ -51,3 +52,4 @@ class Condition(Lucky_Number):
     for i in self.user_numbers:
         if i in self.Luckyball_numbers:
          self.correct+=1
+
