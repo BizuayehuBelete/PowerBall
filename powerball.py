@@ -13,7 +13,7 @@ class Winning_Number():
 
 
 
-     def num1(self):
+     def win_num1(self):
         for i in range(1):
             powerball =randint(1,10)
             self.user_powerball.append(powerball)
@@ -37,7 +37,7 @@ class Lucky_Number(Winning_Number):
         self.Luckyball_numbers = []
         self.Luckyballs = []
 
-    def num(self):
+    def win_num(self):
         for num in range(0, 5):
             user_num = randint(1, 20)
             self.Luckyball_numbers.append(user_num)
