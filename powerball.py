@@ -1,8 +1,5 @@
 from random import randint
 
-# Name: Bizuayehu Belete
-
-
 class Winning_Number():
      def __init__(self):
         self.user_numbers = []
@@ -13,8 +10,8 @@ class Winning_Number():
             powerball =randint(1,10)
             self.user_powerball.append(powerball)
         for i in range(0, 5):
-            number = randint(1, 20)
-            self.user_numbers.append(number)
+            numbers = randint(1, 20)
+            self.user_numbers.append(numbers)
             self.user_numbers.sort()
 class Lucky_Number(Winning_Number):
     def __init__(self):
@@ -23,8 +20,8 @@ class Lucky_Number(Winning_Number):
         self.Luckyballs = []
     def win_num(self):
         for numbers in range(0, 5):
-            user_num = randint(1, 20)
-            self.Luckyball_numbers.append(user_num)
+            random_numbers = randint(1, 20)
+            self.Luckyball_numbers.append(random_numbers)
         power_ball = randint(1, 5)
         self.Luckyballs.append(power_ball)
         self.Luckyball_numbers.sort()
