@@ -3,15 +3,16 @@ from random import randint
 
 
 class Winning_Number():
-    print("\t\33[31m\33[4m\33[1m.....PowerBall Lottery System:.....\33[0m\33[4m\33[1m ")
 
-    def __init__(self):
+     print("\t\33[31m\33[4m\33[1m.....PowerBall Lottery System:.....\33[0m\33[4m\33[1m ")
+
+     def __init__(self):
         self.user_numbers = []
         self.user_powerball = []
 
 
 
-    def num1(self):
+     def num1(self):
         for i in range(1):
             powerball =randint(1,10)
             self.user_powerball.append(powerball)
